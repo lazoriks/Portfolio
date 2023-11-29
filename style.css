@@ -4,7 +4,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: #ccffcc; /* Світлозелений фон для сайту */
+    color: #fff; /* Колір тексту на білий або той, який ви виберете */
 }
 
 header {
@@ -22,8 +23,8 @@ header {
 }
 
 #profile img {
-    width: 100px;
-    height: 100px;
+    width: 120px; /* Збільште розмір зображення за потребою */
+    height: 120px; /* Збільште розмір зображення за потребою */
     border-radius: 50%;
     margin-right: 20px;
 }
@@ -44,45 +45,167 @@ header {
     color: #000;
 }
 
-#blocks {
+#folders {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 20px;
 }
 
-.block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.folder {
+    width: 100%;
+    background-color: #4E6B5C; /* Зелений колір для блоків */
     border: 2px solid #4CAF50;
-    background-color: #e5ffe5;
+    margin-bottom: 20px;
     padding: 15px;
     text-align: left;
-    margin-bottom: 20px;
 }
 
-.block-image img {
-    max-width: 80px; /* Максимальна ширина зображення блока */
-    max-height: 80px; /* Максимальна висота зображення блока */
-    border-radius: 10px;
-    margin-bottom: 10px;
+.folder-header {
+    display: flex;
+    align-items: center;
 }
 
-.sub-block .sub-block-image img {
-    max-width: 60px; /* Максимальна ширина зображення в підблоках */
-    max-height: 60px; /* Максимальна висота зображення в підблоках */
-    border-radius: 8px;
-    margin-bottom: 5px;
+.folder-header img {
+    max-width: 100px; /* Збільште розмір зображення за потребою */
+    max-height: 100px; /* Збільште розмір зображення за потребою */
+    margin-right: 10px;
 }
 
-.block ul {
-    list-style-type: none;
-    padding: 0;
+.folder-header h2 {
+    font-size: 24px;
 }
 
-.block p {
+.bookmark {
+    margin-top: 10px;
+    display: flex;
+    color: #000;
+}
+
+.bookmark img {
+    max-width: 80px; /* Збільште розмір зображення за потребою */
+    max-height: 80px; /* Збільште розмір зображення за потребою */
+    margin-right: 10px;
+}
+
+.bookmark p {
     font-size: 16px;
     color: #000;
     margin: 0;
+}
+
+/* Оновлений CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccffcc;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#scroll-to-top button {
+    font-size: 24px;
+    background-color: #4E6B5C;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#contacts {
+    background-color: #4E6B5C;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-icon {
+    width: 200px;
+    height: 200px;
+    margin-right: 5px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-contact, .right-contact {
+    width: 48%; /* Розділіть контактну інформацію та форму пополам */
+    padding: 10px;
+}
+
+.left-contact p {
+    margin: 5px 0;
+}
+.left-contact p a {
+    color: black; /* Колір посилань */
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-top: 10px;
+}
+
+.name-surname {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-surname label,
+.name-surname input {
+    width: 48%;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+#contact-form textarea {
+    height: 150px; /* Збільшення висоти поля тексту */
+}
+#contact-form button {
+    background-color: #fff;
+    color: #4E6B5C;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
 }
