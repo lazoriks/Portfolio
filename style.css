@@ -1,11 +1,13 @@
-/* Додайте ці стилі до вашого існуючого CSS або створіть новий файл */
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ccffcc; /* Світлозелений фон для сайту */
-    color: #fff; /* Колір тексту на білий або той, який ви виберете */
+    background-image: url('images/alp.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
 }
 
 header {
@@ -23,8 +25,8 @@ header {
 }
 
 #profile img {
-    width: 120px; /* Збільште розмір зображення за потребою */
-    height: 120px; /* Збільште розмір зображення за потребою */
+    width: 120px; 
+    height: 120px; 
     border-radius: 50%;
     margin-right: 20px;
 }
@@ -53,7 +55,7 @@ header {
 
 .folder {
     width: 100%;
-    background-color: #4E6B5C; /* Зелений колір для блоків */
+    background-color: #4E6B5C; 
     border: 2px solid #4CAF50;
     margin-bottom: 20px;
     padding: 15px;
@@ -66,8 +68,8 @@ header {
 }
 
 .folder-header img {
-    max-width: 100px; /* Збільште розмір зображення за потребою */
-    max-height: 100px; /* Збільште розмір зображення за потребою */
+    max-width: 100px; 
+    max-height: 100px; 
     margin-right: 10px;
 }
 
@@ -82,8 +84,8 @@ header {
 }
 
 .bookmark img {
-    max-width: 80px; /* Збільште розмір зображення за потребою */
-    max-height: 80px; /* Збільште розмір зображення за потребою */
+    max-width: 80px; 
+    max-height: 80px; 
     margin-right: 10px;
 }
 
@@ -92,8 +94,6 @@ header {
     color: #000;
     margin: 0;
 }
-
-/* Оновлений CSS */
 
 body {
     font-family: Arial, sans-serif;
@@ -162,7 +162,7 @@ nav a {
 }
 
 .left-contact, .right-contact {
-    width: 48%; /* Розділіть контактну інформацію та форму пополам */
+    width: 48%;
     padding: 10px;
 }
 
@@ -170,7 +170,7 @@ nav a {
     margin: 5px 0;
 }
 .left-contact p a {
-    color: black; /* Колір посилань */
+    color: black; 
 }
 
 #contact-form {
@@ -198,7 +198,7 @@ nav a {
     padding: 8px;
 }
 #contact-form textarea {
-    height: 150px; /* Збільшення висоти поля тексту */
+    height: 150px; 
 }
 #contact-form button {
     background-color: #fff;
