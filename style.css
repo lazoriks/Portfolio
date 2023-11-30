@@ -1,3 +1,4 @@
+/* General styles for larger screens */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,6 +10,7 @@ body {
     color: #fff;
 }
 
+/* Header styles */
 header {
     background-color: #333;
     color: white;
@@ -16,6 +18,7 @@ header {
     text-align: center;
 }
 
+/* Navigation styles */
 nav ul {
     list-style: none;
     padding: 0;
@@ -34,6 +37,7 @@ nav a {
     font-size: 18px;
 }
 
+/* Main content styles */
 #main-content {
     display: flex;
     flex-direction: column;
@@ -50,12 +54,19 @@ nav a {
 #site-description {
     text-align: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #4E6B5C;
     color: #fff;
 }
 
+/* Description section styles */
+#site-description h3 {
+    color: #000; 
+}
+
+/* Profile section styles */
 #profile {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -65,7 +76,7 @@ nav a {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 #profile .info {
@@ -84,15 +95,16 @@ nav a {
     color: #000;
 }
 
+/* Folders section styles */
 #folders {
     display: flex;
-    flex-direction: row; 
+    flex-wrap: wrap;
     margin: 20px;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
 
 .folder {
-    width: 30%; 
+    width: 45%;
     background-color: #4E6B5C;
     border: 2px solid #4CAF50;
     margin-bottom: 20px;
@@ -114,8 +126,7 @@ nav a {
     transition: transform 0.3s ease-in-out;
 }
 
-.folder-header img:hover,
-.bookmark img:hover {
+.folder-header img:hover {
     transform: scale(1.1);
 }
 
@@ -123,24 +134,7 @@ nav a {
     font-size: 24px;
 }
 
-.bookmark {
-    margin-top: 10px;
-    display: flex;
-    color: #000;
-}
-
-.bookmark img {
-    max-width: 80px;
-    max-height: 80px;
-    margin-right: 10px;
-}
-
-.bookmark p {
-    font-size: 16px;
-    color: #000;
-    margin: 0;
-}
-
+/* Contacts section styles */
 #contacts {
     background-color: #4E6B5C;
     color: #fff;
@@ -156,6 +150,7 @@ nav a {
 
 .contact-info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -212,6 +207,7 @@ nav a {
     font-weight: bold;
 }
 
+/* Scroll-to-top button styles */
 #scroll-to-top {
     position: fixed;
     bottom: 20px;
@@ -227,12 +223,29 @@ nav a {
     cursor: pointer;
 }
 
+/* Footer styles */
 .footer-copyright {
     background-color: #000;
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+   
+    #main-blocks {
+        flex-direction: column;
+    }
+
+    .folder {
+        width: 90%;
+    }
+
+    .left-contact,
+    .right-contact {
+        width: 100%;
+    }
 }

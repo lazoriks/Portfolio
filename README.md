@@ -7,9 +7,13 @@ Portfolio on Code Institute
 
 Description
 
-This project showcases a portfolio for business process automation services at the enterprise level. It highlights expertise in Customer Relationship Management (CRM), Accounting & Payroll, and Enterprise Resource Planning (ERP). The site aims to provide information about the services offered and the technologies involved.
+This site is designed to provide a list of consulting, information and development services on various platforms. 
+        I am a skilled Salesforce Developer with a strong background in software development, specializing in delivering innovative and scalable solutions for various industries, including mushroom production, catering, and motor transport. My experience includes developing and integrating Salesforce applications using Apex, LWC, Flows, and APIs, as well as data migration using VS Code and Data Loader.
+
+            Prior to my current role, I served as a Senior Software Developer and Team Leader at PrJSC Enzym Company and One Service UA, where I focused on BAF(1C) configurations for accounting, trade management, and corporate management. I also have a knack for developing web services, working with JSON, and data conversion for diverse platforms. My passion lies in solving complex problems and optimizing business processes through cutting-edge technology. I am committed to continuous learning and growth as a Salesforce/BAF developer, aiming to contribute to the success of both my company and its valued clients.
 
 Link to Live Site
+
 https://github.com/lazoriks/Portfolio
 
 User Experience

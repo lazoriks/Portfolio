@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/erp2.jpg'); 
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+nav {
+    background-color: darkgreen;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header {
+    
+    color: black;
+    padding: 20px; 
+    text-align: center;
+}
+
+.header-block {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #4E6B5C;
+}
+
+.header-block img.header-image {
+    max-width: 80px;
+    height: auto;
+}
+
+.header-block-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+h2 {
+    order: 2;
+}
+
+h1 {
+    text-align: center;
+}
+
+.header-block-content p {
+    order: 1;
+}
+
+.bookmarks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bookmark {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #4E6B5C;
+}
+
+.bookmark img.bookmark-image {
+    max-width: 80px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .bookmarks {
+        flex-direction: column;
+    }
+
+    .bookmark {
+        width: 100%;
+    }
+}

@@ -9,18 +9,21 @@
     <link rel="stylesheet" href="style.css">
     <title>Portfolio on Code Institute</title>
 </head>
+
 <body>
+
+    <!--Navigation-->
     <header>
         <nav>
             <ul>
-                <li><a href="#crm">CRM</a></li>
-                <li><a href="#accounting">Accounting</a></li>
-                <li><a href="#erp">ERP</a></li>
+                <li><a href="#profile">About me</a></li>
+                <li><a href="#folders">Solutions</a></li>
+                <li><a href="#contact-info">Contacts</a></li>
             </ul>
         </nav>
-        <h1>Portfolio on Code Institute</h1>
     </header>
 
+    <!--Profile section-->
     <div id="profile">
         <img src="images/profile-pic.png" alt="profile-pic">
         <div class="info">
@@ -29,13 +32,13 @@
         </div>
     </div>
 
+    <!--Description-->
     <div id="site-description">
         <h3>This site is designed to provide a list of consulting, information and development services on various platforms. </h3>
-        <p>I am a skilled Salesforce Developer with a strong background in software development, specializing in delivering innovative and scalable solutions for various industries, including mushroom production, catering, and motor transport. My experience includes developing and integrating Salesforce applications using Apex, LWC, Flows, and APIs, as well as data migration using VS Code and Data Loader.
-
-            Prior to my current role, I served as a Senior Software Developer and Team Leader at PrJSC Enzym Company and One Service UA, where I focused on BAF(1C) configurations for accounting, trade management, and corporate management. I also have a knack for developing web services, working with JSON, and data conversion for diverse platforms. My passion lies in solving complex problems and optimizing business processes through cutting-edge technology. I am committed to continuous learning and growth as a Salesforce/BAF developer, aiming to contribute to the success of both my company and its valued clients.</p>
+        <p>I am a skilled Salesforce Developer with a strong background in software development, specializing in delivering innovative and scalable solutions for various industries, including mushroom production, catering, and motor transport. My experience includes developing and integrating Salesforce applications using Apex, LWC, Flows, and APIs, as well as data migration using VS Code and Data Loader.</p>
     </div>
 
+    <!--Main-->
     <div id="main-content">
         <div id="main-blocks">
             <section id="folders">
@@ -79,8 +82,9 @@
         </div>
     </div>
 
+    <!--Contatcs-->
     <section id="contacts">
-        <div class="contact-info">
+        <div class="contact-info" id="contact-info">
             <div class="left-contact">
                 <img src="images/unnamed.jpg" alt="Email Icon" class="contact-icon">
                 <p>Email: lazoriksua@gmail.com</p>
@@ -109,17 +113,19 @@
                 </form>
             </div>
         </div>
-    </section>
+    </section>    
 
-    <div id="scroll-to-top">
-        <button onclick="scrollToTop()">↑</button>
-    </div>
-
+    <!--Footer-->
     <div class="footer-copyright">
         <div class="container">
             Site built for educational purposes<br>
             © 2023 Copyright - Stepan Lazoryk
         </div>
+    </div>
+
+    <!--Script scroll-->
+    <div id="scroll-to-top">
+        <button onclick="scrollToTop()">↑</button>
     </div>
 
     <script>
