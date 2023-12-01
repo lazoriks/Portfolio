@@ -120,9 +120,7 @@ Known Bugs
 
 No known bugs at the moment.
 
-Citation of ALL Sources
-Technologies Used
-HTML5, CSS3, JavaScript
+HTML5, CSS3
 FontAwesome for icons
 
 Steps on Deploying, Cloning, and Forking
@@ -133,4 +131,4 @@ Credits
 
 Acknowledgements
 
-Acknowledge any third-party libraries, tools, or code snippets used.
+
