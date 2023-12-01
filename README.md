@@ -1,43 +1,42 @@
 # Portfolio
-Project Introduction
+#Project Introduction
 
-Title
+##Title
 
 Portfolio on Code Institute
 
-Description
+##Description
 
 This site is designed to provide a list of consulting, information and development services on various platforms. 
-        I am a skilled Salesforce Developer with a strong background in software development, specializing in delivering innovative and scalable solutions for various industries, including mushroom production, catering, and motor transport. My experience includes developing and integrating Salesforce applications using Apex, LWC, Flows, and APIs, as well as data migration using VS Code and Data Loader.
-
-            Prior to my current role, I served as a Senior Software Developer and Team Leader at PrJSC Enzym Company and One Service UA, where I focused on BAF(1C) configurations for accounting, trade management, and corporate management. I also have a knack for developing web services, working with JSON, and data conversion for diverse platforms. My passion lies in solving complex problems and optimizing business processes through cutting-edge technology. I am committed to continuous learning and growth as a Salesforce/BAF developer, aiming to contribute to the success of both my company and its valued clients.
+Description of available solutions I provide consulting, information and development services on such platforms.
+I am a skilled Salesforce Developer with a strong background in software development, specializing in delivering innovative and scalable solutions for various industries, including mushroom production, catering, and motor transport. My experience includes developing and integrating Salesforce applications using Apex, LWC, Flows, and APIs, as well as data migration using VS Code and Data Loader.
 
 ![amiresponsive](https://github.com/lazoriks/Portfolio/blob/main/images/Adaptyv.png)
 
-Link to Live Site
+##Link to Live Site
 
-https://github.com/lazoriks/Portfolio
+This site was built using [GitHub Pages](https://github.com/lazoriks/Portfolio)
 
-User Experience
+##User Experience
 
-First-Time User Experience
+###First-Time User Experience
 
 Users are greeted with a visually appealing background image and a clear navigation menu.
 Each section provides concise information about different business automation domains.
 Clicking on the images navigates users to dedicated pages for more details.
 
-Returning User
+###Returning User
 
 Returning users can easily navigate to specific sections of interest using the navigation menu.
 Consistent design and layout enhance a familiar experience for users.
 
-User Stories (PP4 & PP5)
+###User Stories (PP4 & PP5)
 
 As a potential client, I want to understand the expertise of the developer in CRM, Accounting, and ERP.
 As a visitor, I want a visually appealing and easy-to-navigate portfolio site.
 As a user interested in specific services, I want detailed information about each service.
 
-Design
+##Design
 
 Wireframes
 
