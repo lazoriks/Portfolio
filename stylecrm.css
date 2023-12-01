@@ -80,10 +80,11 @@ h1 {
     width: 30%;
     text-align: center;
     margin-bottom: 20px;
-    border: 2px solid white;
+    border: 2px solid darkgreen;
     padding: 10px;
     box-sizing: border-box;
-    background-color: #4E6B5C;
+    background-color: white;
+    color: black;
 }
 
 .bookmark img.bookmark-image {
