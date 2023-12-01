@@ -1,11 +1,11 @@
 # Portfolio
-#Project Introduction
+# Project Introduction
 
-##Title
+## Title
 
 Portfolio on Code Institute
 
-##Description
+## Description
 
 This site is designed to provide a list of consulting, information and development services on various platforms. 
 Description of available solutions I provide consulting, information and development services on such platforms.
@@ -13,87 +13,104 @@ I am a skilled Salesforce Developer with a strong background in software develop
 
 ![amiresponsive](https://github.com/lazoriks/Portfolio/blob/main/images/Adaptyv.png)
 
-##Link to Live Site
+## Link to Live Site
 
 This site was built using [GitHub Pages](https://github.com/lazoriks/Portfolio)
 
-##User Experience
+## User Experience
 
-###First-Time User Experience
+### First-Time User Experience
 
 Users are greeted with a visually appealing background image and a clear navigation menu.
 Each section provides concise information about different business automation domains.
 Clicking on the images navigates users to dedicated pages for more details.
 
-###Returning User
+### Returning User
 
 Returning users can easily navigate to specific sections of interest using the navigation menu.
 Consistent design and layout enhance a familiar experience for users.
 
-###User Stories (PP4 & PP5)
+### User Stories (PP4 & PP5)
 
 As a potential client, I want to understand the expertise of the developer in CRM, Accounting, and ERP.
 As a visitor, I want a visually appealing and easy-to-navigate portfolio site.
 As a user interested in specific services, I want detailed information about each service.
 
-##Design
+## Design
 
-Wireframes
+### Wireframes
 
 Initial wireframes were created to plan the layout and structure of the site.
 
-Site Structure
+### Site Structure
 
 The site follows a one-page structure with distinct sections for CRM, Accounting & Payroll, ERP, and Contacts.
 
-Imagery Used
+### Imagery Used
 
 High-quality images are used for the background and section headers.
 Relevant icons and images complement the content.
 
-Colour Scheme
+### Colour Scheme
 
 The colour scheme includes shades of green and earthy tones for a professional and cohesive look.
 
-Typography
+### Typography
 
 Arial and sans-serif fonts for a clean and easily readable interface.
 
-Features
+## Features
 
-Navigation
+### Navigation
 
 Clear navigation menu at the top for easy section access.
 Each section has a link to its dedicated page for more detailed information.
 
-Future Features
+### Section Navigation and Profile
+* About me
+* Solutions
+* Contacts
+![Section1](https://github.com/lazoriks/Portfolio/blob/main/images/SectionProfile.png)
 
-Expand the portfolio with more detailed case studies.
-Integrate a blog section to share industry insights.
+### Section Solutions
+* CRM
+* Accounting&Payroll
+* ERP
+![Section2](https://github.com/lazoriks/Portfolio/blob/main/images/SectionSolutions.png)
 
-Testing
+### Section Contacts
+![Section3](https://github.com/lazoriks/Portfolio/blob/main/images/SectionContacts.png)
 
-Code Validation
+## Future Features
+
+When learning Javascript, you will add dynamics and actions to the site
+
+## Testing
+
+![Check HTML](https://github.com/lazoriks/Portfolio/blob/main/images/CheckW3C.png)
+![Check CSS](https://github.com/lazoriks/Portfolio/blob/main/images/CheckCSS.png)
+
+### Code Validation
 
 HTML and CSS were validated using W3C validators.
 
-Responsiveness
+### Responsiveness
 
 The site is designed to be responsive and tested on various devices.
 
-Lighthouse Testing
+### Lighthouse Testing
 
 Lighthouse testing ensures optimal performance, accessibility, SEO, and best practices.
 
-Accessibility Testing
+### Accessibility Testing
 
 The site follows best practices for accessibility, ensuring inclusivity.
 
-Manual Testing
+### Manual Testing
 
 Extensive manual testing on different browsers and devices.
 
-Bugs
+### Bugs
 
 Bugs Fixed
 
