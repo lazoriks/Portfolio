@@ -12,6 +12,8 @@ This site is designed to provide a list of consulting, information and developme
 
             Prior to my current role, I served as a Senior Software Developer and Team Leader at PrJSC Enzym Company and One Service UA, where I focused on BAF(1C) configurations for accounting, trade management, and corporate management. I also have a knack for developing web services, working with JSON, and data conversion for diverse platforms. My passion lies in solving complex problems and optimizing business processes through cutting-edge technology. I am committed to continuous learning and growth as a Salesforce/BAF developer, aiming to contribute to the success of both my company and its valued clients.
 
+![amiresponsive](https://github.com/lazoriks/Portfolio/blob/main/images/Adaptyv.png)
+
 Link to Live Site
 
 https://github.com/lazoriks/Portfolio
