@@ -138,13 +138,9 @@
             var emailInput = document.getElementById("email").value;
             var emailError = document.getElementById("emailError");
     
-            // Simple email validation check
             if (emailInput.includes("@")) {
-                // Valid email address
-                emailError.textContent = ""; // Clear any previous error message
-                // You can add further processing or submit the form here
+                emailError.textContent = ""; 
             } else {
-                // Invalid email address
                 emailError.textContent = "Please enter a valid email address.";
             }
         }
