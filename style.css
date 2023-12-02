@@ -233,6 +233,9 @@ nav a {
     bottom: 0;
     width: 100%;
 }
+.emailError{
+    color: red;
+}
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
