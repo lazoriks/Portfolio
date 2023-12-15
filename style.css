@@ -174,7 +174,8 @@ nav a {
 }
 
 .left-contact p a {
-    color: lightskyblue;
+    color: white;
+    font-style: italic;
 }
 
 #contact-form {
