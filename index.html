@@ -97,26 +97,24 @@
                 <p>Trailhead: <a href="https://www.salesforce.com/trailblazer/slazoryk" target="_blank" rel="noopener">https://www.salesforce.com/trailblazer/slazoryk</a></p>
             </div>
             <div class="right-contact">
-                <form id="contact-form">
+                <form id="contact-form" onsubmit="validateEmail(); return false;">
                     <div class="name-surname">
-                        
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" placeholder="Your Name" required>
-
+                
                         <label for="surname">Surname:</label>
                         <input type="text" id="surname" name="surname" placeholder="Your Surname" required>
-                        
                     </div>
-
+                
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" placeholder="your_email@mail.com">
                     
                     <div class="emailError" id="emailError"></div>
-
+                
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" required></textarea>
-
-                    <button onclick="validateEmail()" type="submit">Send Message</button>
+                
+                    <button type="submit">Send Message</button>
                 </form>
             </div>
         </div>
@@ -130,28 +128,51 @@
         </div>
     </div>
 
-    <!--Script scroll-->
+    <!--Script scroll
     <div id="scroll-to-top">
         <button onclick="scrollToTop()">↑</button>
     </div>
+    
+
+    <div id="thank-you-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>Thank you for your message! We will get back to you shortly.</p>
+            <button onclick="closeModal()">OK</button>
+        </div>
+    </div>
+    -->
+      
 
     <script>
-        function scrollToTop() {
+
+        /*function scrollToTop() {
             window.scrollTo({
                 top: 0,
                 behavior: 'smooth'
             });
-        }
+        }*/
+
         function validateEmail() {
-            var emailInput = document.getElementById("email").value;
-            var emailError = document.getElementById("emailError");
-    
-            if (emailInput.includes("@")) {
-                emailError.textContent = ""; 
+            var emailInput = document.getElementById('email').value;
+            var emailError = document.getElementById('emailError');
+        
+            if (emailInput.includes('@')) {
+                emailError.textContent = '';
+                openThankYouPage();
             } else {
-                emailError.textContent = "Please enter a valid email address.";
+                emailError.textContent = 'Please enter a valid email address.';
             }
         }
+        
+        function openThankYouPage() {
+            window.open('contact-thank-you.html', '_blank', 'width=400,height=300');
+            document.getElementById('name').value = '';
+            document.getElementById('surname').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('message').value = '';
+        }
+
     </script>
 </body>
 </html>
