@@ -3,7 +3,7 @@
 
 ## Title
 
-Portfolio on Code Institute
+My Portfolio - Software Developer
 
 ## Description
 
