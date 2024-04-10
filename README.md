@@ -15,7 +15,7 @@ I am a skilled Salesforce Developer with a strong background in software develop
 
 ## Link to Live Site
 
-This site was built using [GitHub Pages](https://github.com/lazoriks/Portfolio)
+This site was built using [GitHub Pages](https://lazoriks.github.io/Portfolio/)
 
 ## User Experience
 
@@ -70,16 +70,16 @@ Each section has a link to its dedicated page for more detailed information.
 * About me
 * Solutions
 * Contacts
-![Section1](https://github.com/lazoriks/Portfolio/blob/main/images/SectionProfile.png)
+![Section1](https://raw.githubusercontent.com/lazoriks/Portfolio/main/assets/images/sectionProfile.png)
 
 ### Section Solutions
 * CRM
 * Accounting&Payroll
 * ERP
-![Section2](https://github.com/lazoriks/Portfolio/blob/main/images/SectionSolutions.png)
+![Section2](https://raw.githubusercontent.com/lazoriks/Portfolio/main/assets/images/sectionSolutions.png)
 
 ### Section Contacts
-![Section3](https://github.com/lazoriks/Portfolio/blob/main/images/SectionContacts.png)
+![Section3](https://raw.githubusercontent.com/lazoriks/Portfolio/main/assets/images/sectionContacts.png)
 
 ## Future Features
 
@@ -87,8 +87,8 @@ When learning Javascript, you will add dynamics and actions to the site
 
 ## Testing
 
-![Check HTML](https://github.com/lazoriks/Portfolio/blob/main/images/CheckW3C.png)
-![Check CSS](https://github.com/lazoriks/Portfolio/blob/main/images/CheckCSS.png)
+![Check HTML](https://raw.githubusercontent.com/lazoriks/Portfolio/main/assets/images/checkW3C.png)
+![Check CSS](https://raw.githubusercontent.com/lazoriks/Portfolio/main/assets/images/checkCSS.png)
 
 ### Code Validation
 
@@ -115,6 +115,10 @@ Extensive manual testing on different browsers and devices.
 Bugs Fixed
 
 Addressed issues related to responsiveness and layout.
+Background images return a 404.
+Commented out code present in index.html.
+Screenshots not broken in README.
+Uppercase used on directories
 
 Known Bugs
 
@@ -127,8 +131,10 @@ Steps on Deploying, Cloning, and Forking
 
 Include step-by-step instructions for deploying, cloning, and forking the project.
 
-Credits
+### Deployment
 
-Acknowledgements
+### Credits
+
+### Acknowledgements
 
 
