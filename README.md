@@ -131,10 +131,29 @@ Steps on Deploying, Cloning, and Forking
 
 Include step-by-step instructions for deploying, cloning, and forking the project.
 
-### Deployment
+## Deployment
 
-### Credits
+The process we went through to place the project on the hosting platform (GitHub)
+- The site was deployed to GitHub pages.
+The steps for deployment are as follows:
+◦ In the GitHub repository, go to the Settings tab
+◦ In the drop-down menu of the source section, select the main branch
+After selecting the main branch, the page will automatically refresh and you will see a detailed feed indicating that the deployment is successful.
 
-### Acknowledgements
+## Credits
 
+### Content and text
 
+![Info](https://www.linkedin.com/company/oneservice-ua/)
+![My profile in trailhead](https://www.salesforce.com/trailblazer/slazoryk)
+![My profile in Linkedin](https://www.linkedin.com/in/lazoriks/)
+
+### Media
+
+Open sites and sources of images and emblems
+Code institute for the deployment process
+Translated with www.DeepL.com/Translator (free version)
+
+## Acknowledgements
+
+Special thanks to Laura Mayock for the call and conversation that helped me, after the second unsuccessful attempt, to find the strength in the first place and to understand my shortcomings in the project and complete it. 
