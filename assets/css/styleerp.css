@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('files/images/accounting_software.webp'); 
+    background-image: url('https://raw.githubusercontent.com/lazoriks/Portfolio/main/assets/images/erp2.jpg'); 
     background-size: cover;
     font-family: Arial, sans-serif;
     color: black;
@@ -76,8 +76,10 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
-    margin-top: 20px;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px auto;
+    padding-left: 40px;
 }
 
 .bookmark {
@@ -99,6 +101,8 @@ h1 {
 @media (max-width: 768px) {
     .bookmarks {
         flex-direction: column;
+        width: 100%;
+        padding-left: 0;
     }
 
     .bookmark {

@@ -11,7 +11,7 @@ This site is designed to provide a list of consulting, information and developme
 Description of available solutions I provide consulting, information and development services on such platforms.
 I am a skilled Salesforce Developer with a strong background in software development, specializing in delivering innovative and scalable solutions for various industries, including mushroom production, catering, and motor transport. My experience includes developing and integrating Salesforce applications using Apex, LWC, Flows, and APIs, as well as data migration using VS Code and Data Loader.
 
-![amiresponsive](https://github.com/lazoriks/Portfolio/blob/main/images/Adaptyv.png)
+![amiresponsive](https://github.com/lazoriks/Portfolio/main/images/Adaptyv.png)
 
 ## Link to Live Site
 
