@@ -144,9 +144,9 @@ After selecting the main branch, the page will automatically refresh and you wil
 
 ### Content and text
 
-![Info](https://www.linkedin.com/company/oneservice-ua/)
-![My profile in trailhead](https://www.salesforce.com/trailblazer/slazoryk)
-![My profile in Linkedin](https://www.linkedin.com/in/lazoriks/)
+Main information from [Info](https://www.linkedin.com/company/oneservice-ua/)
+Many text and info from [My profile in trailhead](https://www.salesforce.com/trailblazer/slazoryk)
+and [My profile in Linkedin](https://www.linkedin.com/in/lazoriks/)
 
 ### Media
 
