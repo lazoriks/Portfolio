@@ -201,10 +201,7 @@ nav a {
 #contact-form textarea {
     margin-bottom: 10px;
     padding: 8px;
-}
-
-#contact-form textarea {
-    /*height: 150px;*/
+    resize: none; 
 }
 
 #contact-form button {
