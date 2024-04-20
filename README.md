@@ -111,9 +111,16 @@ HTML and CSS were validated using W3C validators.
 
 The site is designed to be responsive and tested on various devices.
 
+![Home page](https://raw.githubusercontent.com/lazoriks/Portfolio/main/docs/home.png)
+![Accounting page](https://raw.githubusercontent.com/lazoriks/Portfolio/main/docs/acc.png)
+![CRM page](https://raw.githubusercontent.com/lazoriks/Portfolio/main/docs/crm.png)
+![ERP page](https://raw.githubusercontent.com/lazoriks/Portfolio/main/docs/erp.png)
+
 ### Lighthouse Testing
 
 Lighthouse testing ensures optimal performance, accessibility, SEO, and best practices.
+
+![Lighthouse](https://raw.githubusercontent.com/lazoriks/Portfolio/main/docs/lighthousetesting.png)
 
 ### Accessibility Testing
 
@@ -165,11 +172,7 @@ and [My profile in Linkedin](https://www.linkedin.com/in/lazoriks/)
 
 * Open sites and sources of images and emblems(Sorry, I forgot links these pictures;))
 * Code institute for the deployment process
-<<<<<<< HEAD
 * Translated with www.DeepL.com/Translator and Grammarly for Windows
-=======
-* Translated with [DeepL](www.DeepL.com/Translator) (free version)
->>>>>>> 2c0b48da42ee04d7e2bd1d4bc5a5b349cd294a19
 
 ## Acknowledgements
 
