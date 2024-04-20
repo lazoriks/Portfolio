@@ -87,12 +87,13 @@ When learning Javascript, you will add dynamics and actions to the site
 
 ## Testing
 
-![Check HTML](https://raw.githubusercontent.com/lazoriks/Portfolio/main/docs/checkwc.png)
-![Check CSS](https://raw.githubusercontent.com/lazoriks/Portfolio/main/docs/checkcss.png)
-
 ### Code Validation
 
 HTML and CSS were validated using W3C validators.
+
+![Check HTML](https://raw.githubusercontent.com/lazoriks/Portfolio/main/docs/checkwc.png)
+
+![Check CSS](https://raw.githubusercontent.com/lazoriks/Portfolio/main/docs/checkcss.png)
 
 ### Responsiveness
 
@@ -112,15 +113,15 @@ Extensive manual testing on different browsers and devices.
 
 ### Bugs
 
-Bugs Fixed
+#### Bugs Fixed
 
-Addressed issues related to responsiveness and layout.
-Background images return a 404.
-Commented out code present in index.html.
-Screenshots not broken in README.
-Uppercase used on directories
+- Addressed issues related to responsiveness and layout. Solution: fix cases according to standards
+- Background images return a 404. Solution: fix cases according to standards
+- Commented out code present in index.html. Solution: fix cases according to standards
+- Screenshots not broken in README. Solution: fix cases according to standards
+- Uppercase used on directories. Solution: fix cases according to standards
 
-Known Bugs
+#### Known Bugs
 
 No known bugs at the moment.
 
@@ -150,9 +151,9 @@ and [My profile in Linkedin](https://www.linkedin.com/in/lazoriks/)
 
 ### Media
 
-* Open sites and sources of images and emblems
+* Open sites and sources of images and emblems(Sorry, I forgot links these pictures;))
 * Code institute for the deployment process
-* Translated with www.DeepL.com/Translator (free version)
+* Translated with www.DeepL.com/Translator and Grammarly for Windows
 
 ## Acknowledgements
 
