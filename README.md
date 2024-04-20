@@ -36,6 +36,18 @@ As a potential client, I want to understand the expertise of the developer in CR
 As a visitor, I want a visually appealing and easy-to-navigate portfolio site.
 As a user interested in specific services, I want detailed information about each service.
 
+## Technologies Used
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+* [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+* [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid)- was used to make "gallery" and "contact" pages responsive.
+* [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) was used to declaring global CSS variables and apply them throughout the project.
+* [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
+* [Git](https://git-scm.com/) was used for the version control of the website.
+* [GitHub](https://github.com/) was used to host the code of the website.
+* [GIMP](https://www.gimp.org/) was used to make and resize images for the README file.
+
 ## Design
 
 ### Wireframes
@@ -153,8 +165,13 @@ and [My profile in Linkedin](https://www.linkedin.com/in/lazoriks/)
 
 * Open sites and sources of images and emblems(Sorry, I forgot links these pictures;))
 * Code institute for the deployment process
+<<<<<<< HEAD
 * Translated with www.DeepL.com/Translator and Grammarly for Windows
+=======
+* Translated with [DeepL](www.DeepL.com/Translator) (free version)
+>>>>>>> 2c0b48da42ee04d7e2bd1d4bc5a5b349cd294a19
 
 ## Acknowledgements
 
-Special thanks to Laura Mayock for the call and conversation that helped me, after the second unsuccessful attempt, to find the strength in the first place and to understand my shortcomings in the project and complete it. 
+* Special thanks to [Laura Mayock](https://www.linkedin.com/in/laura-mayock/) and Julia Konovalova for the call and conversation that helped me, after the second unsuccessful attempt, to find the strength in the first place and to understand my shortcomings in the project and complete it. 
+* Code Institute tutors and Slack community members for their support and help.
